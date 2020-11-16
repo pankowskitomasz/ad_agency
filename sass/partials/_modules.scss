@@ -8,21 +8,17 @@
     @include background-blend($bg__blend--type, $color__bg-1);
 }
 
+.about{
+    &-s1{
+        background-attachment: scroll;
+    }
+}
 .comingsoon{
     &-s1{
         @extend %bg-blend;
     }
 }
 .error{
-    &-s1{
-        @extend %bg-blend;
-    }
-}
-.privacy{
-    &-container{
-        background-color: $color__transparent !important;
-        backdrop-filter: $backdrop__filter--privacy;
-    }
     &-s1{
         @extend %bg-blend;
     }
@@ -37,6 +33,19 @@
         @include set-font-params($font-main__family,$font-main__size);
     }
 }
+.index{
+    &-s1{
+        @extend %bg-blend;
+    }
+}
+.minh{
+    &-25vh{
+        min-height: 25vh;
+    }
+    &-50vh{
+        min-height: 50vh;
+    }
+}
 .navbar{
     &-toggler{
         &-icon{
@@ -44,9 +53,20 @@
         }
     }
 }
-
+.privacy{
+    &-container{
+        background-color: $color__transparent !important;
+        backdrop-filter: $backdrop__filter--privacy;
+    }
+    &-s1{
+        @extend %bg-blend;
+    }
+}
 .text{
     &-shadow{
+        &-none{
+            text-shadow: none;
+        }
         text-shadow: $text__shadow;
     }
 }
