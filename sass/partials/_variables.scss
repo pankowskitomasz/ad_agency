@@ -1,16 +1,24 @@
 $backdrop__filter--privacy: blur(10px);
+$bg__about-img: 
+    "../img/mountain_2.jpg";
 $bg__blend--type: multiply;
 $bg__classes:
     "error",
     "comingsoon",
-    "privacy";
+    "privacy",
+    "index",
+    "about";
 $bg__comingsoon-img: "../img/mountains.jpg";
 $bg__error-img: "../img/mountains.jpg";
+$bg__index-img: 
+    "../img/mountains.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__privacy-img,
+    $bg__index-img,
+    $bg__about-img;
 $body__min-height: 100%;
 $color__bg-1: #f687b3;
 $color__dark: #333;
