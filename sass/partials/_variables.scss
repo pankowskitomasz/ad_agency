@@ -7,18 +7,32 @@ $bg__classes:
     "comingsoon",
     "privacy",
     "index",
-    "about";
-$bg__comingsoon-img: "../img/mountains.jpg";
+    "about",
+    "services",
+    "portfolio",
+    "contact";
+$bg__comingsoon-img: 
+    "../img/mountains.jpg";
+$bg__contact-img:
+    "../img/mountain_2.jpg";
 $bg__error-img: "../img/mountains.jpg";
 $bg__index-img: 
     "../img/mountains.jpg";
-$bg__privacy-img: "../img/privacy.jpg";
+$bg__portfolio-img: 
+    "../img/mountains.jpg";
+$bg__privacy-img: 
+    "../img/privacy.jpg";
+$bg__services-img:
+    "../img/mountain_2.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
     $bg__privacy-img,
     $bg__index-img,
-    $bg__about-img;
+    $bg__about-img,
+    $bg__services-img,
+    $bg__portfolio-img,
+    $bg__contact-img;
 $body__min-height: 100%;
 $color__bg-1: #f687b3;
 $color__dark: #333;
