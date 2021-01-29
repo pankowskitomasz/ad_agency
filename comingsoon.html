@@ -4,39 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/tailwindcss/dist/tailwind.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
     <title>AdAgency | Coming soon!</title>
 </head>
 <body class="bg-pink-600">
-    <header class="absolute w-full top-0 left-0 h-20 bg-transparent p-3">
+    <header class="header">
         <nav class="">
             <a href="index.html" class="">
-                <img src="img/navbar_logo.png" class="inline h-10" alt="logo">
-                <div class="inline font-extrabold text-pink-900 font-logo">
+                <img src="img/navbar_logo.png" class="logo-img" alt="logo">
+                <div class="logo-text font-logo">
                     Ad-Agency
                 </div>
             </a>
         </nav>
     </header>
     <main>
-        <section class="error-s1 flex items-center justify-items-center">
-            <div class="w-10/12 sm:w-6/12 text-center mx-auto text-shadow text-white">
-                <h2 class="text-4xl font-bold">Coming soon :)</h2>
-                <p class="text-xl pt-5">
+        <section class="error-s1 flex-center justify-items-center">
+            <div class="error-s1__inner text-shadow text-white">
+                <h2 class="error-s1__title">Coming soon :)</h2>
+                <p class="error-s1__text">
                     Hi, we are not ready yet, however we are staring soon. <br> 
                     Please visit us again in a while.
                 </p>
             </div>
         </section>
     </main>
-    <footer class="flex w-full h-16 text-white bg-pink-900 items-center justify-center text-center">
-        <p class="text-sm">
-            Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
-            <a class="hover:text-pink-400" href="privacy.html">Privacy policy</a>
-        </p>
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo-div">
+                <a href="index.html">
+                    <img src="img/navbar_logo.png" class="logo-img" alt="logo">
+                    <div class="logo-text font-logo">
+                        Ad-Agency
+                    </div>
+                </a>
+            </div>
+            <div class="footer-menu-div">
+                <a href="index.html" class="footer-menu-item menu-item">
+                    Home
+                </a>
+                <a href="about.html" class="footer-menu-item menu-item">
+                    About
+                </a>
+                <a href="services.html" class="footer-menu-item menu-item">
+                    Services
+                </a>
+                <a href="portfolio.html" class="footer-menu-item menu-item">
+                    Portfolio
+                </a>
+                <a href="contact.html" class="footer-menu-item menu-item">
+                    Contact
+                </a>
+            </div>
+            <div class="copyright-div">
+                <p class="copyright-text">
+                    <small>
+                    Copyright &copy; 2020-2021 Tomasz Pankowski. All rights reserved.
+                    <a class="copyright-link" href="privacy.html">Privacy policy</a>
+                    </small>
+                </p>
+            </div> 
+        </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>

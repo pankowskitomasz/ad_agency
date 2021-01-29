@@ -4,52 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/tailwindcss/dist/tailwind.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
     <title>AdAgency | About us</title>
 </head>
 <body class="bg-pink-600">
-    <header class="absolute w-full top-0 left-0 h-20 bg-transparent p-3">
-        <nav class="">
+    <header class="header">
+        <nav>
             <a href="index.html">
-                <img src="img/navbar_logo.png" class="inline h-10" alt="logo">
-                <div class="inline font-extrabold text-pink-900 font-logo">
+                <img src="img/navbar_logo.png" class="logo-img" alt="logo">
+                <div class="logo-text font-logo">
                     Ad-Agency
                 </div>
             </a>
-            <button class="float-right w-8 h-8 navbar-toggler-icon inline-block md:hidden">
+            <button class="navbar-toggle-btn navbar-toggler-icon">
             </button>
-            <div class="nav-menu hidden md:inline-block font-menu float-right p-3 w-full md:w-auto text-right text-shadow">
-                <a href="index.html" class="text-white hover:text-pink-600 m-1 block md:inline">
+            <div class="nav-menu font-menu header-menu">
+                <a href="index.html" class="header-menu-item menu-item">
                     Home
                 </a>
-                <a href="about.html" class="text-white hover:text-pink-600 m-1 block md:inline">
+                <a href="about.html" class="header-menu-item menu-item">
                     About
                 </a>
-                <a href="services.html" class="text-white hover:text-pink-600 m-1 block md:inline">
+                <a href="services.html" class="header-menu-item menu-item">
                     Services
                 </a>
-                <a href="portfolio.html" class="text-white hover:text-pink-600 m-1 block md:inline">
+                <a href="portfolio.html" class="header-menu-item menu-item">
                     Portfolio
                 </a>
-                <a href="contact.html" class="text-white hover:text-pink-600 m-1 block md:inline">
+                <a href="contact.html" class="header-menu-item menu-item">
                     Contact
                 </a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="about-s1 flex items-center minh-25vh">
+        <section class="about-s1 flex-center minh-25vh">
         </section>
-        <section class="about-s2 items-center flex p-8 md:p-16 bg-pink-900 minh-50vh">
-            <div class="grid grid-cols-1 sm:grid-cols-6 w-full">
-                <div class="col-span-1 sm:col-span-2 md:col-span-3 m-6 flex">
-                    <img src="img/team.jpg" alt="team" class="shadow-xl mb-6 self-center border border-pink-800">                    
+        <section class="about-s2 flex-center p-container bg-pink-900 minh-50vh">
+            <div class="about-s2__inner">
+                <div class="about-s2__col-img">
+                    <img src="img/team.jpg" alt="team" class="about-s2__img">                    
                 </div>
-                <div class="col-span-1 sm:col-span-4 md:col-span-3 p-8 m-6 text-center sm:text-left text-white">
-                    <h3 class="text-xl md:text-3xl mb-6 font-logo">Who We Are</h3>
-                    <p class="text-sm md:text-md mb-6">
+                <div class="about-s2__col-text">
+                    <h3 class="about-s2__title font-logo">Who We Are</h3>
+                    <p class="about-s2__text">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 
                         1500s, when an unknown printer took a galley of type and scrambled it to 
@@ -59,15 +57,15 @@
                 </div>
             </div>
         </section>
-        <section class="about-s3 flex p-8 md:p-16 bg-white minh-50vh">
-            <div class="grid grid-cols-1 sm:grid-cols-6 w-full">
-                <div class="col-span-1 sm:col-span-2 m-6 flex">
-                    <img src="img/team/kate.jpg" alt="team" class="w-1/2 shadow-xl mb-6 self-start border border-purple-900 mx-auto sm:ml-auto"> 
+        <section class="about-s3 flex p-container bg-white minh-50vh">
+            <div class="about-s3__inner">
+                <div class="about-s3__col-img">
+                    <img src="img/team/kate.jpg" alt="team" class="about-s3__img"> 
                 </div>
-                <div class="col-span-1 sm:col-span-4 m-6 text-center sm:text-left text-purple-900 border-b border-gray-400">
-                    <h3 class="text-xl md:text-3xl">Kate</h3>
-                    <h4 class="text-sm text-purple-700 mb-6">Graphics Designer</h4>
-                    <p class="text-sm md:text-md mb-6 text-justify text-purple-500">
+                <div class="about-s3__col-text">
+                    <h3 class="about-s3__title">Kate</h3>
+                    <h4 class="about-s3__subtitle">Graphics Designer</h4>
+                    <p class="about-s3__text">
                         Highly creative and multitalented Graphic Designer with extensive experience 
                         in multimedia, marketing and print design. Exceptional collaborative and 
                         interpersonal skills; dynamic team player with well-developed written and 
@@ -78,13 +76,13 @@
                         on working within budget requirements.
                     </p>
                 </div>
-                <div class="col-span-1 sm:col-span-2 m-6 flex">
-                    <img src="img/team/john.jpg" alt="team" class="w-1/2 shadow-xl mb-6 self-start border border-purple-900 mx-auto sm:ml-auto"> 
+                <div class="about-s3__col-img">
+                    <img src="img/team/john.jpg" alt="team" class="about-s3__img"> 
                 </div>
-                <div class="col-span-1 sm:col-span-4 m-6 text-center sm:text-left text-purple-900 border-b border-gray-400">
-                    <h3 class="text-xl md:text-3xl">John</h3>
-                    <h4 class="text-sm text-purple-700 mb-6">Graphics Designer</h4>
-                    <p class="text-sm md:text-md mb-6 text-justify text-purple-500">
+                <div class="about-s3__col-text">
+                    <h3 class="about-s3__title">John</h3>
+                    <h4 class="about-s3__subtitle">Graphics Designer</h4>
+                    <p class="about-s3__text">
                         Successfully manage and coordinate graphic design projects from concept through 
                         completion. Work closely with clients to create vision, conceive designs, and 
                         consistently meet deadlines and requirements. Effectively build, motivate, and 
@@ -95,13 +93,13 @@
                         staffing, and administrative functions.
                     </p>
                 </div>
-                <div class="col-span-1 sm:col-span-2 m-6 flex">
-                    <img src="img/team/raymond.jpg" alt="team" class="w-1/2 shadow-xl mb-6 self-start border border-purple-900 mx-auto sm:ml-auto"> 
+                <div class="about-s3__col-img">
+                    <img src="img/team/raymond.jpg" alt="team" class="about-s3__img"> 
                 </div>
-                <div class="col-span-1 sm:col-span-4 m-6 text-center sm:text-left text-purple-900 border-b border-gray-400">
-                    <h3 class="text-xl md:text-3xl">John</h3>
-                    <h4 class="text-sm text-purple-700 mb-6">CEO</h4>
-                    <p class="text-sm md:text-md mb-6 text-justify text-purple-500">
+                <div class="about-s3__col-text">
+                    <h3 class="about-s3__title">John</h3>
+                    <h4 class="about-s3__subtitle">CEO</h4>
+                    <p class="about-s3__text">
                         Successfully translated subject matter into concrete design for newsletters, 
                         promotional materials and sales collateral. Created design theme and graphics 
                         for marketing and sales presentations, training videos and corporate websites. 
@@ -112,43 +110,43 @@
             </div>
         </section>
     </main>
-    <footer class="flex w-full text-white bg-pink-700 items-center justify-center text-center border-t border-pink-900">
-        <div class="grid grid-cols-1 sm:grid-cols-2 w-full">
-            <div class="col-span-1 text-center sm:text-left p-4">
-                <a href="index.html" class="">
-                    <img src="img/navbar_logo.png" class="inline h-10" alt="logo">
-                    <div class="inline font-extrabold text-pink-900 font-logo">
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo-div">
+                <a href="index.html">
+                    <img src="img/navbar_logo.png" class="logo-img" alt="logo">
+                    <div class="logo-text font-logo">
                         Ad-Agency
                     </div>
                 </a>
             </div>
-            <div class="col-span-1 p-4 text-center sm:text-right opacity-75 text-sm text-pink-900">
-                <a href="index.html" class="hover:text-pink-400 m-1 block md:inline">
+            <div class="footer-menu-div">
+                <a href="index.html" class="footer-menu-item menu-item">
                     Home
                 </a>
-                <a href="about.html" class="hover:text-pink-400 m-1 block md:inline">
+                <a href="about.html" class="footer-menu-item menu-item">
                     About
                 </a>
-                <a href="services.html" class="hover:text-pink-400 m-1 block md:inline">
+                <a href="services.html" class="footer-menu-item menu-item">
                     Services
                 </a>
-                <a href="portfolio.html" class="hover:text-pink-400 m-1 block md:inline">
+                <a href="portfolio.html" class="footer-menu-item menu-item">
                     Portfolio
-                </a> 
-                <a href="contact.html" class="hover:text-pink-400 m-1 block md:inline">
+                </a>
+                <a href="contact.html" class="footer-menu-item menu-item">
                     Contact
                 </a>
             </div>
-            <div class="col-span-1 sm:col-span-2 p-2 border-t border-pink-900 mx-6">
-                <p class="text-sm text-pink-900">
-                    Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
-                    <a class="hover:text-pink-400" href="privacy.html">Privacy policy</a>
+            <div class="copyright-div">
+                <p class="copyright-text">
+                    <small>
+                    Copyright &copy; 2020-2021 Tomasz Pankowski. All rights reserved.
+                    <a class="copyright-link" href="privacy.html">Privacy policy</a>
+                    </small>
                 </p>
-            </div>
+            </div> 
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>
